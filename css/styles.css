@@ -10,11 +10,10 @@ body {
     width: 100%;
     height: 100vh;
     z-index: 1;
-    background-color: green;
     text-align: center;
 }
 
-.container-welcome h1 {
+.container-welcome .welcome-text {
     margin: 0%;
     padding-top: 30vh;
     font-size: 100px;
@@ -32,7 +31,6 @@ body {
     float: left;
     top: 0%;
     left: 0%;
-    border-radius: 30%;
 }
 
 .curtain-left img {
@@ -53,7 +51,6 @@ body {
 
 .animated-curtain-draw {
     width: 0%;
-    border-bottom-right-radius: 70%;
     transition: all 7s ease 0s;
 }
 
@@ -61,3 +58,9 @@ body {
     color: red;
     transition: all 5s ease 3s;
 }
+
+@media screen and (max-width: 1000px) {
+    .container-welcome .welcome-text {
+        font-size: 50px;
+    }
+  }
