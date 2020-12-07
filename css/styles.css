@@ -11,6 +11,13 @@ body {
     height: 100vh;
     z-index: 1;
     background-color: green;
+    text-align: center;
+}
+
+.container-welcome h1 {
+    margin: 0%;
+    padding-top: 30vh;
+    font-size: 100px;
 }
 
 .curtain {
@@ -22,20 +29,35 @@ body {
 }
 
 .curtain-left {
-    background-color: red;
     float: left;
     top: 0%;
     left: 0%;
+    border-radius: 30%;
+}
+
+.curtain-left img {
+    width: 100%;
+    height: 100%;
 }
 
 .curtain-right {
-    background-color: blue;
     float: right;
     top: 0%;
     right: 0%;
 }
 
-.animated {
+.curtain-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.animated-curtain-draw {
     width: 0%;
-    transition: all 10s ease 0s;
+    border-bottom-right-radius: 70%;
+    transition: all 7s ease 0s;
+}
+
+.animated-welcome-text {
+    color: red;
+    transition: all 5s ease 3s;
 }
