@@ -1,0 +1,41 @@
+:root{
+     /* Global vars */
+}
+
+body {
+    margin: 0%;
+}
+
+.container-welcome {
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background-color: green;
+}
+
+.curtain {
+    height: 100vh;
+    width: 50%;
+    z-index: 10;
+    position: fixed;
+    
+}
+
+.curtain-left {
+    background-color: red;
+    float: left;
+    top: 0%;
+    left: 0%;
+}
+
+.curtain-right {
+    background-color: blue;
+    float: right;
+    top: 0%;
+    right: 0%;
+}
+
+.animated {
+    width: 0%;
+    transition: all 10s ease 0s;
+}
