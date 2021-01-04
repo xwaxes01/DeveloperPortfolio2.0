@@ -59,6 +59,14 @@ body {
     transition: all 5s ease 3s;
 }
 
+
+.img-personal {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
 @media screen and (max-width: 1000px) {
     .container-welcome .welcome-text {
         font-size: 50px;
