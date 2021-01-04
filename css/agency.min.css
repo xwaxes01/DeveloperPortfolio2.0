@@ -191,7 +191,8 @@ header.masthead .intro-text .intro-heading{
 }
 #portfolio .portfolio-item{
     right:0;
-    margin:0 0 5px;
+    margin:0 0 50px;
+    height: 100%;
 }
 #portfolio .portfolio-item .portfolio-link{
     position:relative;display:block;
